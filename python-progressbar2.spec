@@ -9,6 +9,7 @@ Group:		Development/Python
 Url:		https://pypi.org/project/%{pypi_name}
 Source:		https://files.pythonhosted.org/packages/source/%{pypi_name}-%{version}.tar.gz
 BuildArch:	noarch
+BuildRequires:	python3dist(setuptools)
 
 %description
 A text progress bar is typically used to display the progress of a long
