@@ -3,7 +3,7 @@
 Name:		python-%{pypi_name}
 Summary:	A Progressbar library to provide visual progress to long running operations
 Version:	3.53.1
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Python
 Url:		https://pypi.org/project/%{pypi_name}
