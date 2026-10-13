@@ -2,15 +2,19 @@
 
 Name:		python-%{pypi_name}
 Summary:	A Progressbar library to provide visual progress to long running operations
-Version:	4.5.0
+Version:	4.6.0
 Release:	1
-License:	BSD
+License:	BSD-3-Clause
 Group:		Development/Python
 Url:		https://pypi.org/project/%{pypi_name}
 Source:		https://files.pythonhosted.org/packages/source/p/progressbar2/%{pypi_name}-%{version}.tar.gz
 BuildArch:	noarch
 BuildSystem:	python
+BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(python-utils)
 BuildRequires:	python%{pyver}dist(setuptools)
+BuildRequires:	python%{pyver}dist(setuptools-scm)
+BuildRequires:	python%{pyver}dist(wheel)
 
 %description
 A text progress bar is typically used to display the progress of a long
